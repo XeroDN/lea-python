@@ -1,0 +1,5 @@
+print(2+3.4)
+print(2+3.4j)
+print(2+3.4j+5)
+print(2+3.4j+5.6)
+print(2+3.4j+5.6+7)
