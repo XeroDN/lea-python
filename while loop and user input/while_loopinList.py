@@ -1,22 +1,22 @@
-# unused_cars = ['honda','bmw', 'mercedez','suzuki']
-# used_cars = []
-# while unused_cars:
-#     current_cars = unused_cars.pop()
-#     print(f"veryfing the car: {current_cars.title()}")
-#     used_cars.append(current_cars)
+unused_cars = ['honda','bmw', 'mercedez','suzuki']
+used_cars = []
+while unused_cars:
+    current_cars = unused_cars.pop()
+    print(f"veryfing the car: {current_cars.title()}")
+    used_cars.append(current_cars)
 
-# print("The following car have in used:")
-# for used_car in used_cars:
-#     print(used_car.title())
+print("The following car have in used:")
+for used_car in used_cars:
+    print(used_car.title())
 
 
 #  removing all instances specific value from list
-# pets = ['cat', 'dog', 'hen', 'cat', 'dog', 'cat','cat']
-# print(pets)
+pets = ['cat', 'dog', 'hen', 'cat', 'dog', 'cat','cat']
+print(pets)
 
-# while 'cat' in pets:
-#     pets.remove('cat')
-# print(pets)
+while 'cat' in pets:
+    pets.remove('cat')
+print(pets)
 
 
 
