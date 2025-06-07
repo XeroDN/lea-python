@@ -31,6 +31,6 @@ while polling_active:
     repeat = input("would you like to respond another person?: (yes/no) ")
     if repeat == 'no':
         polling_active = False
-print("/n....polling result......")
+print("\n....polling result......")
 for name, response in responses.items():
     print(f"{name.title()} would like to watch {response.title()}")
