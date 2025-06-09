@@ -7,3 +7,6 @@ describe_type("snake",'hola')
 
 describe_type('crocodile','crybaby')
 describe_type('camelon','colorchanger')
+
+# order in positional argument
+describe_type('hola','snake')
