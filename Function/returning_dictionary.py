@@ -21,3 +21,19 @@ def build_person(first_name,last_name,age=None):
     return person
 physicts = build_person('Niroj','Rana',34)
 print(physicts)
+
+
+def get_formatted(first_name, last_name):
+    full_name = f"{first_name} {last_name}"
+    return full_name.title()
+while True:
+    print(f"\nPlease tell me your name")
+    print("enter 'q' to quit")
+    f_name = input("Firstname: ")
+    if f_name == 'q':
+        break
+    L_name = input("last name: ")
+    if L_name == 'q':
+        break
+    formatted_name = get_formatted(f_name,L_name)
+    print(f"Hello {formatted_name}! ")
