@@ -30,3 +30,5 @@ sfm.make_pizza(20, 'mushroom')
 #Importing All Functions in a Module
 from storing_the_functionInModule import * #The asterisk in the import statement tells Python to copy every function from the module into this program file
 make_pizza(22, 'peporani')
+
+from storing_the_functionInModule import make_pizza
