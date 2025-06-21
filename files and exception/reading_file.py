@@ -39,4 +39,9 @@ with open(file_path) as file_object:
     for line in file_object: # read function read the content from the pi.txt file
         print(line.strip())
 
-        
+file_path = 'pi.txt'
+with open(file_path) as file_object:
+    for line in file_object: # read function read the content from the pi.txt file
+        print(line.strip())        
+
+
