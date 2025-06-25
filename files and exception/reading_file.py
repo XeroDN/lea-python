@@ -31,17 +31,12 @@ for line in lines:
 print(pi)
 print(len(pi))
 
-
-
-# reading line by line 
-file_path = 'pi.txt'
-with open(file_path) as file_object:
-    for line in file_object: # read function read the content from the pi.txt file
-        print(line.strip())
-
-file_path = 'pi.txt'
-with open(file_path) as file_object:
-    for line in file_object: # read function read the content from the pi.txt file
-        print(line.strip())        
-
-
+# reading larger file 
+filename = 'C:/Users/xero__t94rj10/OneDrive/Desktop/learn/python/pyth/files and exception/pi.txt'
+with open(filename) as file_object:
+    lines = file_object.readlines()
+pi = ''
+for line in lines:
+    pi += line.strip()
+print( f"{pi[:40]}....")
+print(len(pi))
