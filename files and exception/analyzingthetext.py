@@ -28,3 +28,20 @@ def count_words(filename):
 filenames = ['C:/Users/xero__t94rj10/OneDrive/Desktop/learn/python/pyth/files and exception/pi.txt', 'programming.txt', 'hrllo']
 for filename in filenames:
     count_words(filename)
+
+
+# Failing siliently 
+def count_words(filename):
+    try:
+        with open(filename, encoding = 'utf-8') as f:
+            contents = f.read()
+    except FileNotFoundError:
+        pass   #a pass statement that tells it to do nothing in a block:
+    else:
+   # count the number of words in the file
+       words = contents.split()
+       num_words = len(words)
+       print(f"the file {filename} has about {num_words} words.")
+filenames = ['C:/Users/xero__t94rj10/OneDrive/Desktop/learn/python/pyth/files and exception/pi.txt', 'programming.txt', 'hrllo']
+for filename in filenames:
+    count_words(filename)

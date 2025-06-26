@@ -35,8 +35,8 @@ print(len(pi))
 filename = 'C:/Users/xero__t94rj10/OneDrive/Desktop/learn/python/pyth/files and exception/pi.txt'
 with open(filename) as file_object:
     lines = file_object.readlines()
-pi = ''
+pi_string = ''
 for line in lines:
-    pi += line.strip()
-print( f"{pi[:40]}....")
-print(len(pi))
+    pi_string += line.strip()
+print( f"{pi_string[:40]}....")
+print(len(pi_string))
